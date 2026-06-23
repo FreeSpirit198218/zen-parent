@@ -1,17 +1,74 @@
-# macOS
-.DS_Store
+# 忽略匹配下列规则的 Git 提交
 
-# IntelliJ IDEA
+### Gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS / Eclipse ###
+.settings/
+.apt_generated
+.classpath
+.factorypath
+.project
+.springBeans
+bin/
+
+### IntelliJ IDEA ###
 .idea/
+*.iws
 *.iml
+*.ipr
+*.lock
+rebel.xml
 
-# Maven
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+### Maven ###
 target/
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.flattened-pom.xml
 
-# Logs
+### Logs ###
+logs/
+*/logs/
 *.log
 
-# Local environment
+### Temp ###
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+### System ###
+.DS_Store
+Thumbs.db
+Servers
+.metadata
+upload
+gen_code
+
+### Node ###
+node_modules/
+
+### Local environment ###
 .env
 .env.*
 
+### Custom ###
+uploadFiles
+.xcodemap
+qodana.yaml
+.claude
