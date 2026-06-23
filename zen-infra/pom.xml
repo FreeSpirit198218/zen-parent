@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.kxqd.zen</groupId>
+        <artifactId>zen-parent</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>zen-infra</artifactId>
+    <packaging>pom</packaging>
+    <name>zen-infra</name>
+    <description>基础设施聚合模块，只负责组织各类基础设施子模块，不承载具体运行时代码。</description>
+
+    <modules>
+        <module>zen-infra-web</module>
+        <module>zen-infra-security</module>
+        <module>zen-infra-tenant</module>
+        <module>zen-infra-governance</module>
+        <module>zen-infra-mybatis</module>
+        <module>zen-infra-cache</module>
+        <module>zen-infra-mq</module>
+        <module>zen-infra-protection</module>
+        <module>zen-infra-storage</module>
+        <module>zen-infra-log</module>
+        <module>zen-infra-dict</module>
+        <module>zen-infra-sensitive</module>
+        <module>zen-infra-crypto</module>
+        <module>zen-infra-job</module>
+        <module>zen-infra-excel</module>
+        <module>zen-infra-websocket</module>
+        <module>zen-infra-sse</module>
+        <module>zen-infra-doc</module>
+    </modules>
+</project>
