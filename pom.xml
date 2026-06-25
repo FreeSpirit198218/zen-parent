@@ -21,7 +21,6 @@
         <module>zen-module-system-api</module>
         <module>zen-module-system</module>
         <module>zen-tools</module>
-        <module>zen-demo</module>
     </modules>
 
     <properties>
