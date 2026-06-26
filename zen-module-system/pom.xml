@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.1.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
 
-    <parent>
-        <groupId>com.kxqd.zen</groupId>
-        <artifactId>zen-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+    <parent/>
 
     <artifactId>zen-module-system</artifactId>
     <name>zen-module-system</name>
@@ -20,10 +15,12 @@
             <groupId>com.kxqd.zen</groupId>
             <artifactId>zen-module-system-api</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.kxqd.zen</groupId>
             <artifactId>zen-common-core</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.kxqd.zen</groupId>
             <artifactId>zen-shared-kernel</artifactId>

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.1.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
 
     <groupId>com.kxqd.zen</groupId>
     <artifactId>zen-dependencies</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>bom</packaging>
 
     <name>zen-dependencies</name>
     <description>统一依赖版本 BOM，集中管理 Spring Boot、Hutool、Sa-Token 等第三方依赖版本以及 Zen 内部模块版本。</description>
 
     <properties>
-        <zen.version>0.1.0-SNAPSHOT</zen.version>
         <spring-boot.version>4.1.0</spring-boot.version>
         <hutool.version>5.8.46</hutool.version>
         <sa-token.version>1.45.0</sa-token.version>
@@ -42,127 +41,127 @@
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-common-core</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-shared-kernel</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-web</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-security</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-tenant</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-governance</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-mybatis</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-cache</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-mq</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-protection</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-storage</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-log</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-dict</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-sensitive</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-crypto</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-job</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-excel</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-websocket</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-sse</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-infra-doc</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.kxqd.zen</groupId>
                 <artifactId>zen-module-system-api</artifactId>
-                <version>${zen.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
