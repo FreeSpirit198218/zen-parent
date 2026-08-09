@@ -11,4 +11,9 @@
     <name>zen-tools</name>
     <description>开发工具聚合模块，只负责组织代码生成、脚手架初始化等 Zen 研发辅助工具，不参与运行时业务。</description>
 
+    <subprojects>
+        <subproject>zen-tools-codegen</subproject>
+        <subproject>zen-tools-initializer</subproject>
+    </subprojects>
+
 </project>

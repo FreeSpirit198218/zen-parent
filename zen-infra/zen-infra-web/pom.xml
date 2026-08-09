@@ -4,7 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
     <modelVersion>4.1.0</modelVersion>
 
-    <parent/>
+    <parent>
+        <groupId>com.kxqd.zen</groupId>
+        <artifactId>zen-infra</artifactId>
+    </parent>
 
     <artifactId>zen-infra-web</artifactId>
     <name>zen-infra-web</name>

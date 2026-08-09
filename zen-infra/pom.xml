@@ -11,4 +11,25 @@
     <name>zen-infra</name>
     <description>基础设施聚合模块，只负责组织各类基础设施子模块，不承载具体运行时代码。</description>
 
+    <subprojects>
+        <subproject>zen-infra-cache</subproject>
+        <subproject>zen-infra-crypto</subproject>
+        <subproject>zen-infra-dict</subproject>
+        <subproject>zen-infra-doc</subproject>
+        <subproject>zen-infra-excel</subproject>
+        <subproject>zen-infra-governance</subproject>
+        <subproject>zen-infra-job</subproject>
+        <subproject>zen-infra-log</subproject>
+        <subproject>zen-infra-mq</subproject>
+        <subproject>zen-infra-mybatis</subproject>
+        <subproject>zen-infra-protection</subproject>
+        <subproject>zen-infra-security</subproject>
+        <subproject>zen-infra-sensitive</subproject>
+        <subproject>zen-infra-sse</subproject>
+        <subproject>zen-infra-storage</subproject>
+        <subproject>zen-infra-tenant</subproject>
+        <subproject>zen-infra-web</subproject>
+        <subproject>zen-infra-websocket</subproject>
+    </subprojects>
+
 </project>

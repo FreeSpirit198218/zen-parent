@@ -13,6 +13,17 @@
     <name>zen-parent</name>
     <description>Zen 统一依赖版本 BOM，集中管理 Spring Boot、Hutool、Sa-Token 等第三方依赖版本以及 Zen 内部模块版本。</description>
 
+    <subprojects>
+        <subproject>zen-boot</subproject>
+        <subproject>zen-common-core</subproject>
+        <subproject>zen-dependencies</subproject>
+        <subproject>zen-infra</subproject>
+        <subproject>zen-module-system</subproject>
+        <subproject>zen-module-system-api</subproject>
+        <subproject>zen-shared-kernel</subproject>
+        <subproject>zen-tools</subproject>
+    </subprojects>
+
     <properties>
         <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
