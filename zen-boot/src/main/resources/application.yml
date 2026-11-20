@@ -1,3 +1,7 @@
 spring:
+  output:
+    ansi:
+      # 始终开启彩色日志输出
+      enabled: always
   application:
     name: zen-boot

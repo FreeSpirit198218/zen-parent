@@ -4,10 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
     <modelVersion>4.1.0</modelVersion>
 
-    <parent>
-        <groupId>com.kxqd.zen</groupId>
-        <artifactId>zen-tools</artifactId>
-    </parent>
+    <parent/>
 
     <artifactId>zen-tools-initializer</artifactId>
     <name>zen-tools-initializer</name>
